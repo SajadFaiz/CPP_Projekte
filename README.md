@@ -24,6 +24,9 @@ Das Auto kann zwischen verschiedenen Zuständen wechseln, um das Verhalten eines
 **Turn off:** Das Auto kann durch einen Befehl ausgeschaltet werden, ähnlich wie beim Starten des Autos.
 Alle diese Funktionen sind in der Programmlogik implementiert und können durch entsprechende Befehle gesteuert werden.
 
+# Ergebnisse in unterschiedlichen Zuständen 
+![Zustände](https://github.com/user-attachments/assets/89a4db42-9cb8-4ab1-b3cc-87524c11abd1)
+
 # Teil 2: Mit UI
 ##  C++ Projekt mit Qt und QML Integration
 
