@@ -17,7 +17,9 @@ Das Auto kann zwischen verschiedenen Zuständen wechseln, um das Verhalten eines
 Zusätzliche verfügbare Funktionen:
 
 **Up:** Das Auto kann sich in positiver Y-Richtung bewegen.
+
 **Down:** Das Auto kann sich in negativer Y-Richtung bewegen.
+
 **Turn off:** Das Auto kann durch einen Befehl ausgeschaltet werden, ähnlich wie beim Starten des Autos.
 Alle diese Funktionen sind in der Programmlogik implementiert und können durch entsprechende Befehle gesteuert werden.
 
@@ -30,18 +32,18 @@ Das Projekt simuliert ein Auto, das physikalische Größen wie Position, Geschwi
 # Verfügbare Zustände:
 
 **Offstate:** Das Auto ist ausgeschaltet.
+
 **Neutralstate:** Das Auto befindet sich im Leerlauf, es ist eingeschaltet, aber steht still.
+
 **Accel state:** Das Auto beschleunigt, und alle Werte für Position, Geschwindigkeit und Beschleunigung werden berechnet.
+
 **Deccel state:** Das Auto kann rückwärts fahren, jedoch nur, wenn es sich im Leerlauf befindet.
 Zusätzliche verfügbare Funktionen:
 
 **Up:** Das Auto kann sich in positiver Y-Richtung bewegen.
+
 **Down:** Das Auto kann sich in negativer Y-Richtung bewegen.
+
 **Turn off:** Das Auto kann per Befehl ausgeschaltet werden, ähnlich wie beim Starten des Autos.
 Benutzeroberfläche (UI):
 
-Die Steuerung des Autos erfolgt über eine einfache Benutzeroberfläche, die zwei Hauptschaltflächen enthält:
-
-Start/Stop (ST/SP) Taste: Mit dieser Taste kann das Auto gestartet oder gestoppt werden.
-Neustart-Taste: Mit dieser Taste kann der Simulationszustand des Autos zurückgesetzt werden.
-Andere Funktionen wie Up, Down und Reverse sind im Projekt vorhanden, wurden jedoch noch nicht in die Benutzeroberfläche integriert. Die Befehle werden durch Klicken der entsprechenden Schaltflächen ausgeführt, wobei die Interaktion zwischen der Benutzeroberfläche und der Programmlogik durch Qt-Signale gesteuert wird.
