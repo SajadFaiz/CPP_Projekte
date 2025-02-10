@@ -7,14 +7,13 @@ Das Auto kann zwischen verschiedenen Zuständen wechseln, um das Verhalten eines
 
 # Verfügbare Zustände:
 
-**Offstate:** 
-Das Auto ist ausgeschaltet.
-**Neutralstate:** 
-Das Auto befindet sich im Leerlauf, es ist eingeschaltet, aber steht still.
-**Accel state:** 
-Das Auto beschleunigt, und alle Werte für Position, Geschwindigkeit und Beschleunigung werden berechnet.
-**Deccel state:** 
-Das Auto kann rückwärts fahren, jedoch nur, wenn es sich im Leerlauf befindet.
+**Offstate:** Das Auto ist ausgeschaltet. 
+
+**Neutralstate:** Das Auto befindet sich im Leerlauf, es ist eingeschaltet, aber steht still.
+
+**Accel state:** Das Auto beschleunigt, und alle Werte für Position, Geschwindigkeit und Beschleunigung werden berechnet.
+
+**Deccel state:** Das Auto kann rückwärts fahren, jedoch nur, wenn es sich im Leerlauf befindet.
 Zusätzliche verfügbare Funktionen:
 
 **Up:** Das Auto kann sich in positiver Y-Richtung bewegen.
