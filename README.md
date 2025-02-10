@@ -14,7 +14,8 @@ Das Auto kann zwischen verschiedenen Zuständen wechseln, um das Verhalten eines
 **Accel state:** Das Auto beschleunigt, und alle Werte für Position, Geschwindigkeit und Beschleunigung werden berechnet.
 
 **Deccel state:** Das Auto kann rückwärts fahren, jedoch nur, wenn es sich im Leerlauf befindet.
-Zusätzliche verfügbare Funktionen:
+
+# Zusätzliche verfügbare Funktionen:
 
 **Up:** Das Auto kann sich in positiver Y-Richtung bewegen.
 
@@ -38,7 +39,8 @@ Das Projekt simuliert ein Auto, das physikalische Größen wie Position, Geschwi
 **Accel state:** Das Auto beschleunigt, und alle Werte für Position, Geschwindigkeit und Beschleunigung werden berechnet.
 
 **Deccel state:** Das Auto kann rückwärts fahren, jedoch nur, wenn es sich im Leerlauf befindet.
-Zusätzliche verfügbare Funktionen:
+
+# Zusätzliche verfügbare Funktionen:
 
 **Up:** Das Auto kann sich in positiver Y-Richtung bewegen.
 
